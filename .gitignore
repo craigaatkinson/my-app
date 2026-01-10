@@ -1,0 +1,53 @@
+# Vendor dependencies
+/vendor/
+/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+database/*.sqlite
+database/*.sqlite3
+database/*.db
+
+# CSV data files (uncomment if you want to track them)
+database/data/*.csv
+!database/data/example_customers.csv
+
+# Keep directory structure
+!database/data/.gitkeep
+!database/migrations/.gitkeep
+!database/seeds/.gitkeep
+
+# Backups
+database/backups/
+backups/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test coverage
+coverage/
+.phpunit.result.cache
+
+# Temporary files
+tmp/
+temp/
+*.tmp

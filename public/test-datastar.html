@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Datastar Test</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="/datastar-1.0.0-RC.2.js"></script>
+</head>
+<body class="p-8">
+    <h1 class="text-2xl font-bold mb-4">Datastar Test</h1>
+
+    <div class="mb-4">
+        <button
+            class="bg-blue-500 text-white px-4 py-2 rounded"
+            data-on-click="$counter = ($counter || 0) + 1">
+            Click me: <span data-text="$counter || 0"></span>
+        </button>
+    </div>
+
+    <div class="mb-4">
+        <button
+            class="bg-green-500 text-white px-4 py-2 rounded"
+            data-on-click="@get('/dashboard/statistics')">
+            Test SSE Endpoint
+        </button>
+        <div id="test-result" class="mt-2 p-4 border"></div>
+    </div>
+
+    <div class="mb-4">
+        <p>Datastar loaded: <span id="datastar-check" class="font-bold">Checking...</span></p>
+    </div>
+
+    <script>
+        setTimeout(() => {
+            const check = document.getElementById('datastar-check');
+            if (window.Datastar !== undefined) {
+                check.textContent = 'YES ✓';
+                check.className = 'font-bold text-green-600';
+            } else {
+                check.textContent = 'NO ✗';
+                check.className = 'font-bold text-red-600';
+            }
+        }, 1000);
+    </script>
+</body>
+</html>

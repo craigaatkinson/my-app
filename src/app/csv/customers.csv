@@ -1,0 +1,200 @@
+comp_id,code,company,address,city_st_zip,contact,commodity,miles,rate_base,fsc
+49,SML,1888 Mills,1200 Weaving A Better World Dr,"Griffin, GA 30224",Eddie Johnson; 770-377-0403,Used Clothes,434,868,1.0
+4,SML,2ND Life,4690 Hammermill Rd Suite E,"Tucker, GA 30084",Shane; 404-557-1234; shane@rtmrecycling.com,Used Clothing,512,1024,1.0
+41,SML,ABW,7875 White Rd. SW,"Austell, GA 30168",Katie Patterson; 770-795-4026,Chocolates,532,1040,1.0
+13,SML,AD Food,2075 Boggs Road,"Duluth, GA 30096",Maricella; 212-951-7288; appointment@adfoods.com,Frozen Shrimp,538,1076,1.0
+161,SML,AES Clean Technology,3465 Martin Farm Road,"Suwanee, GA 30024",Michael Merriwe 404-610-1064; mmerriwether@aesclean.com,Building Materials,548,1096,1.0
+145,PortCity,AGY,2556 Wagener Rd.,"Aiken, SC 29801",Matthew Voyles; 912-655-1151,General,250,675,1.0
+198,SML,Ainsworth,781 Ebenezer Rd.,"Fayetteville, GA 30215",Ainsworth_richards@yahoo.com,General,356,712,
+75,SML,All Tech,8479 US 19 South Baconton,"Baconton, GA 31716",Taylor Bankston,Animal feed,450,900,1.0
+178,SML,Alma Parker Cold,226 Pineview Road,"Alma, GA 31510",Paula Lewis 912-632-7964,Fruit,210,420,1.0
+80,PortSide,ALPHA,230 Sunport LN,"Orlando FL, 32809",Marty Gladin; 478-456-3068; marty@haycotrucking.com,Terry Towels,291,1315,0.0
+1,SML,Americold Logistics,1802 Rome Hwy,"Rockmart, GA 30153",Brill; 770-684-0886; brill.rockmart@agromerchants.com,Frozen Vegatable Cream,586,1172,1.0
+59,SML,Americold Pooler,220 Nordic Way,"Pooler, GA 31322",agro-bookingsav@americold.com,Food,1,350,1.0
+197,SML,Americold2,1900 Corporate Way,"Sumter, SC 29154",NA,Frozen Chicken,288,576,
+2,SML,Anitox,1055 Progress Circle,"Lawrenceville, GA 30043",Monica Hill; 678-376-3063 mhill@anitox.com,Non-Haz Animal Food,494,1100,1.0
+165,SML,APM Plant,4800 Augusta Hwy SE,"Dearing, GA 30808","Paul Coughlin, 478-456-2379; pcoughlan@advminerals.com",Clay,316,632,1.0
+121,SML,Aquasol,730 N. Anderson Rd.,"Rock Hill, SC 29730",Jason Hurley 803-984-3086,Modified Starch,456,912,1.0
+32,SML,Archroma,788 Chert Quarry Road,"Martin, SC 29836",Belinda Owens; 803-584-4321,Industrial ,1,490,1.0
+3,SML,Arconic,50 Industrial Boulevard,"Eastman, GA 31023",Dyanna Evans; 478-374-6868; dyanna.evans@arconic.com,Aluminum Articles,282,564,1.0
+105,SML,Armada,3707 North Commerce Dr.,"East Point, GA 30344",James Furr; 678-322-4741; jfurr@armada.net,Restaurant Supplies,494,984,1.0
+42,SML,Armstrong Ceilings,4520 Broadway,"Macon, GA 31206",badroege@armstrongceilings.com,Building Materials,330,660,1.0
+44,SML,Atlanta Bonded,2037 American Italian Way,"Columbia, SC 29209",Kayleigh Hull; kayleigh.hull@atlantabonded.com; PU#560....,Pet Food,314,628,1.0
+56,SML,Atlanta Depot,7645 Bishop Rd.,"Fairburn, GA 30213",Mike Coleman (manager); 770-892-4966(o) 770-624-6384(c); mcoleman@firstcoast.net,First Coast (DEPOT),506,1012,1.0
+142,PortCity,Atlantic Corporation,"5301 W 5th St, Paxon","Jacksonville, FL 32254",Matthew Voyles; 912-655-1151; matthew.voyles@portcitylogistics.com,GDSM,125,750,1.0
+179,SML,BA Shipping,1251 Colquitt Highway,"Bainbridge, GA 39817","Carl Ward, 678-635-4204; BASHIPPINGAPPOINTMENTS @JBSSINC.COM","Food, Groceries",514,1028,1.0
+58,SML,BAK Foods,150 Selig Dr. SW,"Atlanta, GA 30336",Stephen Smith; stephen.smith@bakfoods.com; 404-505-9950,FOOD,496,992,1.0
+73,SML,Bargain,10125 Highway 17 Bypass Inlet Square Mall,"Murrells Inlet, SC 29576",Michelle; 843-750-0580; michelle@thebargainwarehouse.com,Rags and Remnants,374,748,1.0
+116,SML,Barnes Paper,Winters Excelsior Hwy 21,"Mc Williams, AL 36753",Ray B/Charlotte 800-248-7237,Chick Tray Liners,814,1628,1.0
+132,PortCity,BBC,1484 GA-90 ,"Cordele, GA 31015",Matthew Voyles; 912-655-1151; matthew.voyles@portcitylogistics.com,Cartons,380,800,1.0
+102,SML,Burris Logistics,4501 Dignan Street,"Jacksonville, FL 32254",TBD,Food Product,276,552,1.0
+5,SML,C&C,487 Bourne Ave,"Savannah, GA 31408",Melissa Dunwody; 912-233-5045,Multiple,63,125,1.0
+82,PortCity,Cart Source,7662 Philips Hwy,"Jacksonville, FL 32217",Matthew Voyles; 912-655-1151; matthew.voyles@portcitylogistics.com,General,296,1020,0.0
+157,SML,Carthage Mills,1310 C AND L DR,"Dalton, GA 30721",Elaine; 800-543-4430,Textiles,684,1368,1.0
+26,SML,CH Guenther & Son,11891 C.R. Koon Hwy ,"Prosperity, SC 31408",Terry Aldaco; 803-364-7234; taldaco@chg.com,KFC Frozen Biscuits,378,756,1.0
+6,SML,Charbroil,"1555 Concord Blvd,","Columbus, GA 31904",Lisa 1-800-352-4111 lfreyberger@charbroil.com,Grills and Accessories,458,916,1.0
+60,SML,Chartering,"220 Greenwood Court, Suite 230","McDonough, GA 30253",REEFERS@CHARTERING.COM,TUNA,452,904,1.0
+138,SML,Chassis Move,487 Bourne Ave,Savannah,Paula Beltran (SML),Chassis,10,110,1.0
+83,SML,CJ Logistics America,220 Greenwood Court Suite 230,"McDonough, GA 30253",Fred Marshall; 678-583-2046; fredrick.marshall@cjlogisticsamerica.com,,452,904,1.0
+160,SML,Claxton Cold Storage,6424 Highway 301,"Claxton, GA 30417",Michelle 912-739-9800,Frozen poultry,104,450,1.0
+97,SML,ClubCar,4125 Washington Road,"Evans, GA 30809",Chris Williams 706-619-3036; chris.williams@clubcar.com,Golf Carts,280,560,1.0
+106,SML,CMC,340 Commerce Drive,"Rincon, GA 31326",Paula Beltran (SML),,1,125,1.0
+7,SML,CMC Charlotte,360 Aqua Chem Drive,"Charlotte, NC 28202",NA,Empty,504,1008,1.0
+124,SML,Cobb Industrial,1011 Marietta Industrial Dr.,"Marietta, GA 30062",Mike 678-403-3800,Frozen Foods,550,1100,1.0
+109,PortSide,Colquimica,2205 Beltway Blvd Suite 200,"Charlotte, NC 28214",Matt Barfield; 704-492-8483; matthew.barfield@colquimica.com,fibers,500,1500,0.0
+110,SML,Cool Runnings,1128 HWY 54 East Suite 200A,"Fayetteville, GA 30214",Jeremy 770-629-4964; jmoulton@coolrunningsint.com,Building Materials,488,976,1.0
+79,PortSide,Corporate Warehouse,2301 Commerce Drive NW,"Decatur, AL 35601",Marty Gladden; 478-456-3068; marty@haycotrucking.com; office@portsidelogistics.net,General,972,2180,0.0
+27,SML,Covia,1 Albion Rd (Plant 22),"Hephzibah, GA 30815",Steven Gibbs; 706-591-9121; steven.gibbs@coviacorp.com,Caly,232,464,1.0
+8,SML,Dama Cargo,255 Standard Warehouse Road,"Lugoff, SC 29078",Angela or Joey 803-438-8116; ewalsh@protectivepack.com,Packing Materials,370,740,1.0
+45,SML,Del Monte,"4475 South Fulton Parkway, Bldg 4","Atlanta, GA 30349",Araceli Garcia; 404-559-5600; dmfatl.scheduling@sclogistics.com,Canned Foods,496,992,1.0
+86,WEST,Deutz,596 Bonnie Valentine Way,"Pendergrass, GA 30567",Julianna Clifton; 912-438-7616; julianna.clifton@westmotor.com,Various,300,1850,0.0
+88,SML,DHL,6710 Oakley Industrial Blvd,"Union City, GA 30291",Terricka Townse; 678-724-4900; amdc_exports@dhl.com,FoodStuff,504,1008,1.0
+9,SML,Diamond Pet,100 Woodtrail Drive,"Gaston, SC 29053",Thomas Stone; 803-739-9072; tstone@diamondpet.com,GDSM,294,588,1.0
+77,SML,DN Foods,3485 Empire Blvd,"Atlanta, GA 30354",678-977-8340,Frozen Foods,496,992,1.0
+33,SML,DOT Foods,1120 West North St,"Vidalia, GA 30474",na; logistic@jqiternational.com,Frozen Foods,192,384,1.0
+107,SML,Dove,2016 Green Mills Road,"Conyers, GA 30013",,DGSM,475,950,1.0
+130,SML,Dover Foods,2016 Gees Mill Road,"Conyers, GA 30013",Stephanie Miller; 770-285-3068; smiller@doverfoodretail.com,DGSM,475,950,1.0
+10,SML,DRC Contracting,801 Hunter Industrial Park,"Laurens, SC 29360",Jessica; 864-300-4131,GDSM,448,896,1.0
+193,SML,DSC,5000 Bohannon Dr.,"Fairburn, GA 30213",Welch@cjlogisticsamerica.com,Coffee,506,1012,
+46,SML,DSV AIR & SEA,110 Forbes Road ,"Savannah, GA ",,GDSM,1,350,1.0
+166,SML,Empire Trading,3300 Montreal Industrial Way,"Tucker, GA 30084",Ivan; 352-895-8868,Frozen Shrimp,512,1024,1.0
+152,SML,Enson,80 Coleman Blvd,"Pooler, GA 31322",service@ensconseafoodGA.com,Frozen Foods,10,450,1.0
+177,SML,Fans First,14045 Abercorn St. Unit 2,"Savannah, GA 31419",NA,General,175,350,1.0
+69,SML,FAST,TBD,"Birmingham, AL",TBD,Unknown,790,1580,1.0
+18,SML,Fiber Vision,109 Barnett Shoals Rd,"Watkinsville, GA 30677",Tyson Waller; 404-772-9197; tyson.waller@fibervisions.com,Fibers,460,920,1.0
+144,PortCity,Filpa USA,1310 C AND L DR,"Dalton, GA 30721",Matthew Voyles; 912-655-1151; matthew.voyles@portcitylogistics.com,Fabric,680,1705,1.0
+167,SML,First Choice,80 Coleman Blvd,"Pooler, GA 31322",Tina@FCSFOOD.com; Richard@FCSFOOD.com,Frozen Shrimp,175,350,1.0
+113,SML,Flexon,5201 Pearman Dairy Road,"Anderson, SC 29625",,GDSM,536,984,1.0
+94,Scott,Flowers Baking,2261 West  30th Street,"Jacksonville, FL 32209",John Shelby; 682-200-6622; johnshelby.dispatch@gmail.com,Food Product,400,1200,0.0
+180,SML,GEHL FOOD,181 Crescemt Way,"Walterboro, SC 29488",Blakney Gurney,Beverages,136,500,1.0
+111,SML,Georgia Crown,100 Georgia Crown Drive,"McDonough, GA 30253",Terri 770-302-3375; receiving@georgiacrown.com,Beer,452,904,1.0
+156,SML,Global Clothing,300 Wharton Circle SW,"Atlanta, GA 30301",Kadie O Karen; kadiebah@gciatl.com; ksim@gciatl.com,Used Clothes,496,992,1.0
+150,SML,Global Refrigeration,563 Corbin Road,"Honea Path, SC 29654",Tonya Fleming; 864-260-6600,Restaurant Supplies,496,824,1.0
+204,SML,Golden Dragon,2390 FARRINGTON POINT DR,"Winston Salem, NC 27107",NA,Frozen Shrimp,658,1316,
+181,SML,Goya Foods,4005 Haworth Pkwy,"McDonough, GA 30253",,Precooked White,452,904,1.0
+103,SML,GP Recyclers,5640 Rivers Ave.,"North Charleston, SC",Jenny 843-809-0369,Used Clothes,212,424,1.0
+84,SML,Great Lakes Cheese,885 Manchester Industrial Pkwy,"Manchester, TN 37355",GLCManchesterscheduling@greatlakescheese.com,Cheese,900,2500,1.0
+11,SML,Greatwall Seafood,80 Coleman Blvd,"Pooler, GA 31322",Contact: 912-988-4165; Live Unload,Frozen Plantains,1,350,1.0
+196,SML,Gulf States,106 Eli Whitney Blvd,"Savannah, GA 31408",Linda.Trundle@kochFoods.com,Frozen Foods,1,350,
+25,SML,GXO,3011 Clark St. Bldg 6,"Albany, GA 31705",Shelby Mongomery; 229-352-4041; Ademoia Martins; 229-352-4038; ademola.martins@gxo.com,Beer,440,880,1.0
+108,SML,Harrison Poultry,2410 Tech Center Bldg 250,"Lawrenceville, GA 30045",djares@harrisonpoultry.com,Frozen Foods,550,1100,1.0
+92,Portside,HAYCO (flips),289 Telfair Rd.,"Savannah, GA 31408",Frances Burton; 707-816-6238,Empty-Full,5,200,0.0
+137,PortCity,Heart of GA Peanut & Gin,202 2nd St. ,"Hawkinsville, GA 31036",Matthew Voyles; 912-655-1151; matthew.voyles@portcitylogistics.com,Peanut & Gin,300,725,1.0
+115,SML,Heat Craft,1128 E Lanier Ave Suite 200A,"Fayetteville, GA 30215",James Fowler; 229-388-7843,Building Materials,356,712,1.0
+119,SML,Heat Craft (Tifton),420 Southwell Blvd,"Tifton, GA 31794",James Fowler; 229-388-7843,GDSM,364,728,1.0
+168,SML,Home Expressions,"300 Trade Zone Blvd, Suite D","Summerville, SC 29485",ELI; 917-209-4640; is@hmexpress.com,Department Store Merch,204,408,1.0
+202,SML,Hurst,100 Boilermaker Lane,"Coolidge, GA 31738",Shirley Boozer; 229-346-3545,FAK,424,848,
+12,SML,Husqvarna ,172 Old Elloree Rd ,"Orangeburg, SC 29115",ronald.sumpter@husqvarnagroup.com,Lawn Mowers,248,496,1.0
+182,SML,Iberia Food,550 Indian Trail Liliburn Rd.,"Lilburn, GA 30047",athomas@iberiafood.com,General,528,1056,1.0
+183,SML,IFCO,100 Constitution Dr. STE B,"McDonough, GA 30253",Loading Point 6060-0001,Plastic Crates,452,904,1.0
+104,SML,IMAEX,2075 Boggs Road,"Duluth, GA 30096",Maricella; 212-951-7288; appointment@adfoods.com,Frozen Foods,538,1076,1.0
+14,SML,IMERYS,601 Kaolin Rd,"Sandersville, GA 31082",Becky/Erik becky.bevill@imerys.com,Clay,280,560,1.0
+95,TQL,Intercept Industries,1000 James Record Road,"Huntsville, AL 35806",John Shelby; 682-200-6622; johnshelby.dispatch@gmail.com,Auto Parts,483,1200,0.0
+151,SML,ITW Medical,2400 North Memorial Drive,"Greenville, NC 27834",Robert King; rking@itwmedical.com,General,730,1472,1.0
+15,SML,IWS,1108 Industry Ave,"Albany, GA 31701",Wesley 229-434-4708; jeudy@interstatewarehouse.com,Packing Materials,440,880,1.0
+72,SML,J&C,198 Hickory Springs Industrial Dr.,"Canton, GA 30115",Jaime Cano; 404-861-7707,Frozen Fruits,588,1176,1.0
+149,SML,JFC Gerber,200 Trade Zone Blvd,"Summerville, SC 29486",Paula Beltran (SML),GDSM,204,408,1.0
+169,SML,John Middleton,2305 North Bells Road Gate F,"Richmond, VA 23234",Jody.Carotenuto@johnmiddletonco.com,Packaging Material,924,1868,1.0
+126,SML,Jose Diaz,123 Danzid Drive,"Summerville, SC 29483",Josedia4@gmail.com ,Automobile,204,408,1.0
+96,SML,JP Shipping,TBD,"College Park, GA",TBD,TBD,260,1060,1.0
+61,SML,JQ International,737 Douglas Hills Road,"Lithia Springs, GA 30122",logistic@jqinternational.com,GDSM,532,1064,1.0
+57,SML,KCDC,340 Westridge Parkway,"McDonough, GA 30253",Cornell Thomas; 678-432-2895,GDSM,452,904,1.0
+30,SML,Keer America,9735 Old Bailes Rd,"Indian Land, SC 29707",Hao Kossler; 803-835-1137,Yarn,482,964,1.0
+139,PortCity,Kegspediter,145 Distribution,"Savannah, GA 31408",Matthew Voyles; 912-655-1151; matthew.voyles@portcitylogistics.com,Empty Beer Kegs,10,275,1.0
+201,SML,Kemira,1525 Church St. Extention,"Marietta, GA 30060","Eric Bradley, 770-241-7166",Resin,540,1080,
+16,SML,Kenco Group,1871 Willow Springs Church Road,"Social Circle, GA 30025",sgoutbounds@kencogroup.com,Foodstuffs,454,908,1.0
+47,SML,Keryx,4601 McCall Rd,"Rincon, GA 31326",,GDSM,1,400,1.0
+162,SML,Kewaunee Scientific,2340 West Front Street,"Statesville, NC 28677","Latasha Clarke, 704-871-3266",LAB Furniture,584,1168,1.0
+62,SML,King,1 King and Prince Blvd,"Brunswick, GA 31520",Ben Church; 912-265-5155,Frozen Shrimp,1,450,1.0
+163,SML,Kirkland Food,36 Enterprise Blvd,"Atlanta, GA 30336",,Frozen Shrimp,496,992,1.0
+17,SML,Kiser-Harriss,2000 Oaks Parkway Dock Doors 1-8,"Belmont, NC 28012",Darian; 704-812-4353; Darian.stokes@khdistribution.com,Paint Related Materials,514,1028,1.0
+50,SML,KPS Global,1005 Sigman Road,"Conyers, GA 30013",Kirk Stokem; 717-940-7207,GDSM,475,950,1.0
+184,SML,Kumho Tire,1240 Highway 155 South,"McDonough, GA 30253","Paige Griffin, 678-593-1429; p.griffin@intergisusa.com",DGSM,452,904,1.0
+140,TMT,LA NETA Foods,1306 Cobb Industrial Drive,"Marietta, GA 30066",Paola Barrios; 347-870-7429; sales@tmtruckingandlogistics.com,Refrig Aluminium,540,1592,1.0
+20,SML,Legget,1000 L&P Parkway,"Monroe, GA 30655",Fonnie; 770-266-7448; flonnie.peters@leggett.com,GDSM,480,960,1.0
+85,WEST,LG Drop and Hook,150 Greenwood Industrial Pkwy,"McDonough, GA 30253",Stephanie Odell;  912-755-0891; Stephanie.Odell@61transport.com,Tires,452,1170,0.0
+34,SML,Limena,712 Winer Industrial Way,"Lawrenceville, GA 30046",Roger Villatoro; 770-338-5494,GDSM,544,1088,1.0
+66,SML,Lineage,101 Clyde Alexander LN; Suite A/101,"Pooler, GA 31322",,Food,1,350,1.0
+158,SML,Lineage2,2375 Tremont Rd.,"Savannah, GA 31405","Ext. 8509, 912-615-6500",Frozen Shrimp,10,450,1.0
+170,SML,Lineage3,101 101 PROGRESS DRIVE,"Rincon, GA 31326","SAMANTHA ROSE, 912-480-9420",Frozen Poultry,10,450,1.0
+21,SML,LST Logistics,190 Gulfstream Blvd,"Savannah, GA 31408",Eric Fields; 219-281-2609,GDSM,1,350,1.0
+99,Liberty,Mana Nutrition,189 Seaboard Rd,"Fitzgerald, Georgia 31750",Susan (Raymond); 912-381-6655,Nutrition Supplement,300,1300,0.0
+63,SML,Map International,4700 Glynco Parkway,"Brunswick, GA 31520",Donnie King; 912-280-6674,Donations,1,450,1.0
+185,SML,Martins,2000 Potato Roll LN,"Valdosta, GA 31601",D. Geyer; 717-263-9580,Frozen Pastries,338,676,1.0
+195,SML,Mauser,1601 Valdosta Highway,"Homerville, GA 31408",Christie C. 912-487-4030; Jessica.tucker@mauserpackaging.com,Empty metal cans,268,536,
+117,PortCity,McClaren Industries,26875 HIGHWAY 80 W,"Portal, GA, 30450",Matthew Voyles; 912-655-1151; matthew.voyles@portcitylogistics.com,Tires,100,475,0.0
+159,PortCity,Mcworth Cotton,102 E Industrial Blvd,"Sylvester, GA 31791",Alex Hill; alex.hill@portcitylogistics.com; 912-428-5407,Cotton,406,850,1.0
+127,PortCity,Midville,127 S Railroad St.,"Midville, GA 31408",Matthew Voyles; 912-655-1151; matthew.voyles@portcitylogistics.com,Tires,100,450,1.0
+65,SML,Mill Street,1291 Commerce Dr.,"Lugoff, SC 29078",Joe Herlong; 803-408-2554,Rags,370,740,1.0
+171,SML,Mobil Fish,2390 Farrington Point Dr.,"Winston Salem, NC 27107",Ami 203-444-6725; 336-771-7232,Golden Fish,658,1316,1.0
+155,SML,Mr Signs,3684 Clearview Ave,"Doraville, GA 30340",Frannolis 706-609-1029,Machines,516,1032,1.0
+89,SML,MSC Direct,6700 Discovery Road,"Mableton, GA 30126",ATLReceiving@mscdirect.com,Mop Handles,524,1048,1.0
+186,SML,NameBrand,3245 Pottery Drive,"Myrtle Beach, SC 29579",Michelle@thebarginwarehouse.com; 843-750-0580,General,410,820,1.0
+154,SML,NC Port,1 Shipyard Boulevard,"Wilmington, NC 28401",Daniel Lamborn; richard.lamborn@ncports.com; 757-633-4401,"Container, Chassis",580,1160,1.0
+31,SML,Nestle,1 Nestle Ct,"McDonough, GA 30253",Kyle/Rosetta; usmcdopeteam@us.nestle.com,Foodstuffs,452,904,1.0
+194,SML,Nestle Purina,5001 Fayetteville Rd,"Fairburn, GA 30213",Claudia Gaynor 770-362-3411; Claudia.Gaynor@purina.nestle.com,BAGS,506,1012,
+141,SML,New Ocean,5372 Royal Woods Parkway,"Tucker, GA 30084",Alex; 770-986-8823,Frozen Foods,512,1024,1.0
+200,SML,NewCold,1841 GA-42,"McDonough, GA 30252",NA,Food,452,904,
+101,SML,Nichols Tires,6703 Stanton Burg Road,"Farmville, NC 27828",Rafael Coorporan,Used Tires,360,1750,1.0
+43,SML,OA Logistics,550 Northport Parkway,"Port Wentworth, GA 31407",Honorina Leupep; 912-373-7778; Honorina.leaupepe@aologistics.com,Furniture,1,350,1.0
+22,SML,OIL DRI,925 East Campbell Street,"Thomasville, GA 31792",Wendy Kizman; 312-706-3240; wendy.kizman@oildri.com,Clay,422,844,1.0
+172,SML,Olympica Produce,"16 Forest Parkway, Building R","Forest Park, GA 30297",Antonio Narvaez 917-288-8845,Carton Boxes,476,952,1.0
+173,PortCity,Osceola Cotton,344 Brushy Creek Rd,"Ocilla, GA 31774","Alex Hill, 912-428-5407; alex.hill@portcitylogistics.com",Cotton,304,700,1.0
+19,SML,Outsourcing,101 S.H. Morgan Pkwy,"Bloomingdale, GA 31302",Jackie; 912-748-4004; jackiedehaan@outsourcelogistics.com,GDSM,1,450,1.0
+133,SML,Perkins Shibaura,325 Green Valley Road,"Griffin, GA 30224",Ainsworth Gardner; 770-233-5600,Department Store ,187,748,1.0
+187,SML,Phillips 66,125 Coleman Blvd,"Pooler, GA 31322",Anthony Huffman 832-765-3453,Petro Products,10,350,1.0
+48,SML,Polyquest,1720 Mineral Springs Rd,"Darlington, SC 29540",Jennifer Henson; 843-393-0310 x315; jenniferhenson@polyquest.com,Pet Flake,370,730,1.0
+71,SML,Polytech Fibers,2017 Highway 411N,"Chatsworth, GA 30705",Joon; joon@polytechfibers.com; angela@polytechfibers 706-422-8005; 3752 Smyrna Church RD,Fibers,650,1300,1.0
+174,PortCity,Porex,TBD,"Atlanta, GA 30331",Alex Hill; 912-428-5407; alex.hill@portcitylogistics.com,HDPE Powder,250,1100,1.0
+74,PortCity,Port City Logistics,2016 Trade Center Blvd,"Rincon, GA 31326",Serena and Lily Warehouse; Courtney Hewitt 912-438-8715,Various,15,300,0.0
+175,SML,Porter Insulation,1047 Airport Road,"Jefferson, GA 30549","Gina Bragg, 800-99-0430",Ceiling Materials,516,1032,1.0
+135,SML,Porter Steel,114 Arcado Road,"Lilburn, GA 30047",Nestor Angulo; 770-564-0837,GDSM,528,1056,1.0
+114,SML,Proctor & Gamble,5921 Summit Avenue,"Browns Summit, NC 27214",,GDSM,660,1320,1.0
+176,SML,Progressive AG,14075 Magnolia St,"Blakely, GA 39823",Jim Carver; 229-308-9640; jim@proagint.com,Machinery Parts,572,1144,1.0
+28,SML,Rein Hart,107 B Avenue,"Valdosta, GA 31603",Rein Hart; 229-242-0867; rfsvalappointments@rfsdelivers.com,Frozen Foods,338,676,1.0
+131,PortSide,Residential,6095-c Northbelt Dr.,"Norcross, GA 30071-2969",Ben 678-531-5168,Car,250,1100,1.0
+136,SML,Rest Depot,2145 Ridgeway Church Rd.,"Commerce, GA 30529",,Frozen Foods,520,1040,1.0
+67,SML,Restaurant Depot,115 Commerce Exchange Dr.,"Commerce, GA 30529",Receive.499@jetrord.com,Frozen Cassava,520,1040,1.0
+87,SML,Ricoh,1735 Satellite Blvd,"Buford, GA 30518",Kenya; 678-546-5070,Paper,562,1124,1.0
+112,PortCity,Rover Mobility,766 Industrial Park Drive,"Evans, GA 30809",Matthew Voyles; 912-655-1151; matthew.voyles@portcitylogistics.com,General,250,675,0.0
+118,SML,Russell Equipment,101 Owens Industrial Dr.,"Savannah, GA 31405",Shirley Shelly 330-405-8300,Forklifts,10,450,1.0
+188,SML,S5C2 Bowling Green,487 Central Ave,"Bowling Green, KY 42101",BG.Scheduling@henkel.com,General,1134,2268,1.0
+70,SML,Samuel,300 Fleming Road,"Birmingham, AL 35217",Kevin or Eddie; 205-854-2010,General,790,1580,1.0
+23,SML,Sauer Brands,39 Southpark Drive,"Greenville, SC 29607",Stephanie; 804-359-5789; sanderson@sauerbrands.com,,514,1028,1.0
+35,SML,Seaonus,2625 W 5th,"Jacksonville, FL 32254",Pete Russo; 904-486-6059; prusso@seaonus.com,Frozen Pultry,296,592,1.0
+93,PortCity,Serena & Lily,2016 Trade Center Blvd ,"Rincon, GA 31326",Matthew Voyles; 912-655-1151; matthew.voyles@portcitylogistics.com,Flips,8,300,0.0
+147,SML,Shaw Plant,"595 Northport Parkway, Suite 200","Savannah, GA 31407",Ruth Rios 800-533-3133,Resilient Tile,25,350,1.0
+51,SML,SIKA,1930 Sarasota Parkway,"Conyers, GA 30013",Cindy Helton; 678-773-6809; helton.cindy@us.sika.com,Building Materials,475,950,1.0
+29,SML,Silgan,150 Voyles Road XT 4402,"Athens, GA 30601",Kara; 630-241-6928; athensshipping@silganclosure.com,Plastic Articles,480,960,1.0
+122,PortCity,Skaps (AthensGA),335 Athena Dr.,"Athens, GA 30601",Taryn Westmorel 706-336-7000; shipping@skaps.com,Industrial Parts,480,960,1.0
+123,SML,Skaps (CommerceGA),571 Industrial Parkway,"Commerce, GA 30529",Taryn Westmorel 706-336-7000; shipping@skaps.com,Industrial Parts,520,1040,1.0
+91,SML,SML Drop and Hook,220 Greenwood Court,"McDonough, GA 30253",Paula Valentina Beltran,General,452,904,1.0
+68,SML,SNF,1 Chemical Plant Rd.,"Riceboro, GA 31323",D. Matthews; dmatthews@snf.com,Resin,1,350,1.0
+128,PortCity,SO GA Cotton,40 W. Odum St.,"Hazlehurst, GA 31539",Matthew Voyles; 912-655-1151; matthew.voyles@portcitylogistics.com,Cotton,100,500,1.0
+98,SML,Sorinex,193 Litton Dr.,"Lexington, SC 29073",Shedrick; 803-978-2253 X-117; shedrick@sorinex.com; dj@sorinex.com,Exercise Equipment,314,628,1.0
+203,SML,Southeast RDC,2037 American Italian Way,"Columbia, SC 29223",Kathy Wesley 770-795-4034,Pet Supplies,314,628,
+189,SML,Southeastern,1132 Veal Rd,"Sandersville, GA 31082",Erica Ext 201 478-553-0048,Paint ,280,560,1.0
+199,SML,Southern States,180 Brook Blvd,"Spartanburg, SC 29307",Brian 864-699-1646,Packaging Materials,492,984,
+55,SML,STAR,1085 Satellite Blvd NW,"Suwanee, GA 30024",Aaron Kim; 770-903-4400; aaron@beesales.com,Beauty Care,548,1096,1.0
+134,PortCity,Stunt Trainer,5388 Aspen Laurel Dr.,"Evans, GA 30809",Matthew Voyles; 912-655-1151; matthew.voyles@portcitylogistics.com,General,250,675,1.0
+146,PortCity,Sunesta,6500 Youngerman Circle,"Jacksonville, FL 32244",Matthew Voyles; 912-655-1151; matthew.voyles@portcitylogistics.com,,280,785,1.0
+190,SML,Sunshine Mills,2006 Waldrep Industrial Blvd,"Dublin, GA 31021",mwiley@sunshinemills.com,Dry Dog Food,232,464,1.0
+76,WEST,Supply Chain (WEST),412 Industrial Road,"Summerville, SC 29483",Julianna Clifton; julianna.clifton@westmotor.com; 912-438-7616,various,200,1100,0.0
+120,SML,SWM MATIV,3240 Brittain Drive,"Newberry, SC 29108",Gregg Summer 518-329-5103,Packaging Materials,388,776,1.0
+153,SML,Sysco,3100 Hilton Street,"Jacksonville, FL 32209",904-371-5734,GDSM,276,552,1.0
+100,TQL,TBC Brands,400 Trade Zone Blvd,"Summerville, SC 29483",TBD,Tires and Tubes,260,600,0.0
+54,SML,TBD,TBD,TBD,TBD,TBD,0,0,1.0
+191,SML,Tencate,2640 Abutment Road,"Dalton, GA 30721",Holli Knight 706-913-8134,Artificial Turf,684,1368,1.0
+129,SML,Tremron,2885 Saint Clair Street,"Jacksonville, FL 32254",Jim Boedeker; 904-359-5900,Clay Brick,276,552,1.0
+52,SML,Truax,248 Collins Rd,"Lyons, GA 30436",912-526-8478; 912-526-8185,Building Materials,1,368,1.0
+36,SML,Union Compress,503 S. Midway Rd,"Cordele, GA 31015",Twyla Talbot; 478-957-2620,Cotton,380,760,1.0
+164,PortCity,Union Compress(PCL),503 S Midway Rd,"Cordele, GA 31015",Alex Hill; alex.hill@portcitylogistics.com 912.428.5407,General,380,750,1.0
+53,SML,US Fibers,30 Pine House Rd.,"Trenton, SC 29847",Lisa Kieffer; 803-275-5023,60BAGS,320,600,1.0
+148,SML,USA Poultry,6424 Highway 301,"Claxton, GA 30417","Michelle, 912-739-9800",Food Product,102,450,1.0
+125,PortCity,Vienna,505 W. Union St.,"Vienna, GA 31092",Matthew Voyles; 912-655-1151; matthew.voyles@portcitylogistics.com,Cotton,368,835,1.0
+192,SML,Wayne,700 GA Hwy 133 ,"Moultrie, GA 31788",Sandy 601-684-9375,Frozen Chicken,412,824,1.0
+90,SML,Wesbell,555 Lucy Garrett Rd,"Roxboro, NC 27574",Diane Bell; 336-598-2331; Anthony.clayton@wesbell.com,Telecom Equipment,755,1510,1.0
+81,WEST,Western Global,10233 Rodney St.,"Pineville, NC 28134",Julianna Clifton; 912-438-7616; Julianna.clifton@westmotor.com,General,508,1700,0.0
+78,SML,Whiplash,47 Sonny Perdue Dr.408,"Garden City, GA 31408",Michael Davalos; michael.davalos@whiplash.com; 912-436-3887,General,1,350,1.0
+24,SML,WL Plastics,703 Gateway Blvd,"Statesboro, GA 30458",Clay Lavendar; 912-623-2268,Safety Building Materials,1,480,1.0
+143,PortCity,YKK (USA) INC,3340 Chestney Road,"Macon, GA 31216",Matthew Voyles; 912-655-1151; matthew.voyles@portcitylogistics.com,GDSM,332,750,1.0

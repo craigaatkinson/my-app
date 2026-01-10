@@ -1,0 +1,18 @@
+# Ignore SQLite database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Ignore CSV data files (add specific files you want to commit)
+data/*.csv
+!data/.gitkeep
+
+# Keep migration and seed files
+!migrations/
+!seeds/
+
+# Ignore database backups
+backups/
+
+# Keep README
+!README.md
