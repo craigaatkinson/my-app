@@ -32,7 +32,17 @@ if (!isset($_SERVER['REQUEST_URI'], $_SERVER['REQUEST_METHOD'])) {
 }
 
 $requestUri = $_SERVER['REQUEST_URI'];
-$uri = parse_url($requestUri, PHP_URL_PATH) ?: '/';
+$method = $_SERVER['REQUEST_METHOD'];
+$uri = parse_url($requestUri, PHP_URL_PATH);
+
+if ($uri === false) {
+    error_log('Malformed request URI');
+    http_response_code(400);
+    echo 'Bad Request';
+    exit;
+}
+
+$uri = $uri ?? '/';
 
 if ($uri === '/stream') {
     $controller = new QuestionController();
@@ -65,8 +75,6 @@ try {
 // Handle the request using the Router class $router object with -> the Router 
 // class dispatch method
 try {
-    $method = $_SERVER['REQUEST_METHOD'];
-    
     $router->dispatch($method, $uri);
 } catch (\Exception $e) {
     error_log('Unexpected error: ' . $e->getMessage());
