@@ -24,7 +24,14 @@ use App\Example;
 // ------------------------------------------------------------
 // Stream route set up using the QuestionController -> stream method
 // ------------------------------------------------------------
-$requestUri = $_SERVER['REQUEST_URI'] ?? '/';
+if (!isset($_SERVER['REQUEST_URI'], $_SERVER['REQUEST_METHOD'])) {
+    error_log('Missing required request server variables');
+    http_response_code(400);
+    echo 'Bad Request';
+    exit;
+}
+
+$requestUri = $_SERVER['REQUEST_URI'];
 $uri = parse_url($requestUri, PHP_URL_PATH) ?: '/';
 
 if ($uri === '/stream') {
@@ -58,7 +65,7 @@ try {
 // Handle the request using the Router class $router object with -> the Router 
 // class dispatch method
 try {
-    $method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
+    $method = $_SERVER['REQUEST_METHOD'];
     
     $router->dispatch($method, $uri);
 } catch (\Exception $e) {
