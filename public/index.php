@@ -24,8 +24,10 @@ use App\Example;
 // ------------------------------------------------------------
 // Stream route set up using the QuestionController -> stream method
 // ------------------------------------------------------------
+$remoteAddr = $_SERVER['REMOTE_ADDR'] ?? 'unknown';
+
 if (!isset($_SERVER['REQUEST_URI'], $_SERVER['REQUEST_METHOD'])) {
-    error_log('Missing REQUEST_URI or REQUEST_METHOD');
+    error_log('Missing REQUEST_URI or REQUEST_METHOD (ip=' . $remoteAddr . ')');
     http_response_code(400);
     echo '400 Bad Request';
     exit;
@@ -36,7 +38,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 $uri = parse_url($requestUri, PHP_URL_PATH);
 
 if ($uri === false) {
-    error_log('Invalid URI path parsed from request URI');
+    error_log('Invalid URI path parsed from request URI (ip=' . $remoteAddr . ', uri_hash=' . hash('sha256', $requestUri) . ')');
     http_response_code(400);
     echo '400 Bad Request';
     exit;
