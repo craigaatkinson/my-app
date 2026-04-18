@@ -24,9 +24,31 @@ use App\Example;
 // ------------------------------------------------------------
 // Stream route set up using the QuestionController -> stream method
 // ------------------------------------------------------------
-$path = $_SERVER['REQUEST_URI'];
+$remoteAddr = filter_var($_SERVER['REMOTE_ADDR'] ?? '', FILTER_VALIDATE_IP) ?: 'unknown';
 
-if ($path === '/stream') {
+if (!isset($_SERVER['REQUEST_URI'], $_SERVER['REQUEST_METHOD'])) {
+    error_log('Missing REQUEST_URI or REQUEST_METHOD (ip=' . $remoteAddr . ')');
+    http_response_code(400);
+    echo '400 Bad Request';
+    exit;
+}
+
+$requestUri = $_SERVER['REQUEST_URI'];
+$method = $_SERVER['REQUEST_METHOD'];
+$uri = parse_url($requestUri, PHP_URL_PATH);
+
+if ($uri === false) {
+    error_log('Invalid URI path parsed from request URI (ip=' . $remoteAddr . ', uri_hash=' . hash('sha256', $requestUri) . ')');
+    http_response_code(400);
+    echo '400 Bad Request';
+    exit;
+}
+
+if ($uri === null) {
+    $uri = '/';
+}
+
+if ($uri === '/stream') {
     $controller = new QuestionController();
     $controller->stream();
     exit;
@@ -57,13 +79,9 @@ try {
 // Handle the request using the Router class $router object with -> the Router 
 // class dispatch method
 try {
-    $method = $_SERVER['REQUEST_METHOD'];
-    $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-    
     $router->dispatch($method, $uri);
 } catch (\Exception $e) {
     error_log('Unexpected error: ' . $e->getMessage());
-    http_response_code(404);
-    require_once __DIR__ . '/../src/app/Views/errors/404.php';
+    http_response_code(500);
+    require_once __DIR__ . '/../src/app/Views/errors/500.php';
 }
-?>
