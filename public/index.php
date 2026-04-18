@@ -24,9 +24,10 @@ use App\Example;
 // ------------------------------------------------------------
 // Stream route set up using the QuestionController -> stream method
 // ------------------------------------------------------------
-$path = $_SERVER['REQUEST_URI'];
+$requestUri = $_SERVER['REQUEST_URI'] ?? '/';
+$uri = parse_url($requestUri, PHP_URL_PATH) ?: '/';
 
-if ($path === '/stream') {
+if ($uri === '/stream') {
     $controller = new QuestionController();
     $controller->stream();
     exit;
@@ -57,8 +58,7 @@ try {
 // Handle the request using the Router class $router object with -> the Router 
 // class dispatch method
 try {
-    $method = $_SERVER['REQUEST_METHOD'];
-    $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+    $method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
     
     $router->dispatch($method, $uri);
 } catch (\Exception $e) {
@@ -66,4 +66,3 @@ try {
     http_response_code(404);
     require_once __DIR__ . '/../src/app/Views/errors/404.php';
 }
-?>
