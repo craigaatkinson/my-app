@@ -25,7 +25,7 @@ use App\Example;
 // Stream route set up using the QuestionController -> stream method
 // ------------------------------------------------------------
 if (!isset($_SERVER['REQUEST_URI'], $_SERVER['REQUEST_METHOD'])) {
-    error_log('Missing required request server variables');
+    error_log('Missing REQUEST_URI or REQUEST_METHOD');
     http_response_code(400);
     echo 'Bad Request';
     exit;
@@ -35,8 +35,8 @@ $requestUri = $_SERVER['REQUEST_URI'];
 $method = $_SERVER['REQUEST_METHOD'];
 $uri = parse_url($requestUri, PHP_URL_PATH);
 
-if (!is_string($uri) || $uri === '') {
-    error_log('Malformed request URI');
+if ($uri === false || $uri === null) {
+    error_log('Invalid URI path parsed from request URI: ' . $requestUri);
     http_response_code(400);
     echo 'Bad Request';
     exit;
