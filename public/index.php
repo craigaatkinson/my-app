@@ -27,7 +27,7 @@ use App\Example;
 if (!isset($_SERVER['REQUEST_URI'], $_SERVER['REQUEST_METHOD'])) {
     error_log('Missing REQUEST_URI or REQUEST_METHOD');
     http_response_code(400);
-    echo 'Bad Request';
+    echo '400 Bad Request';
     exit;
 }
 
@@ -38,11 +38,13 @@ $uri = parse_url($requestUri, PHP_URL_PATH);
 if ($uri === false) {
     error_log('Invalid URI path parsed from request URI');
     http_response_code(400);
-    echo 'Bad Request';
+    echo '400 Bad Request';
     exit;
 }
 
-$uri = $uri ?? '/';
+if ($uri === null) {
+    $uri = '/';
+}
 
 if ($uri === '/stream') {
     $controller = new QuestionController();
