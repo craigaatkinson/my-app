@@ -35,14 +35,12 @@ $requestUri = $_SERVER['REQUEST_URI'];
 $method = $_SERVER['REQUEST_METHOD'];
 $uri = parse_url($requestUri, PHP_URL_PATH);
 
-if ($uri === false) {
+if (!is_string($uri) || $uri === '') {
     error_log('Malformed request URI');
     http_response_code(400);
     echo 'Bad Request';
     exit;
 }
-
-$uri = $uri ?? '/';
 
 if ($uri === '/stream') {
     $controller = new QuestionController();
