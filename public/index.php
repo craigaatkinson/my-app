@@ -24,7 +24,7 @@ use App\Example;
 // ------------------------------------------------------------
 // Stream route set up using the QuestionController -> stream method
 // ------------------------------------------------------------
-$remoteAddr = $_SERVER['REMOTE_ADDR'] ?? 'unknown';
+$remoteAddr = filter_var($_SERVER['REMOTE_ADDR'] ?? '', FILTER_VALIDATE_IP) ?: 'unknown';
 
 if (!isset($_SERVER['REQUEST_URI'], $_SERVER['REQUEST_METHOD'])) {
     error_log('Missing REQUEST_URI or REQUEST_METHOD (ip=' . $remoteAddr . ')');
@@ -82,6 +82,6 @@ try {
     $router->dispatch($method, $uri);
 } catch (\Exception $e) {
     error_log('Unexpected error: ' . $e->getMessage());
-    http_response_code(404);
-    require_once __DIR__ . '/../src/app/Views/errors/404.php';
+    http_response_code(500);
+    require_once __DIR__ . '/../src/app/Views/errors/500.php';
 }
