@@ -162,6 +162,36 @@ class Router {
     }
 
     /**
+     * Resolve a controller class by auto-wiring its constructor dependencies
+     * @param string $class
+     * @return object
+     */
+    private function resolveController(string $class): object {
+        $reflection = new \ReflectionClass($class);
+        $constructor = $reflection->getConstructor();
+
+        if (!$constructor || $constructor->getNumberOfParameters() === 0) {
+            return new $class();
+        }
+
+        $params = [];
+        foreach ($constructor->getParameters() as $param) {
+            $type = $param->getType();
+            if ($type && !$type->isBuiltin()) {
+                $params[] = new ($type->getName())();
+            } elseif ($param->isDefaultValueAvailable()) {
+                $params[] = $param->getDefaultValue();
+            } else {
+                throw new RuntimeException(
+                    "Cannot resolve parameter \${$param->getName()} for {$class}"
+                );
+            }
+        }
+
+        return $reflection->newInstanceArgs($params);
+    }
+
+    /**
      * Convert route path to regex pattern
      * @param string $path
      * @return string
@@ -199,7 +229,7 @@ class Router {
 
         if (is_array($handler)) {
             [$class, $method] = $handler;
-            $instance = new $class();
+            $instance = $this->resolveController($class);
             return $instance->$method(...$match['params']);
         }
 

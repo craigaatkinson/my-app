@@ -7,6 +7,7 @@ use App\Controllers\CustomerController;
 use App\Controllers\DatastarController;
 use App\Controllers\LoadDashboardController;
 use App\Controllers\DebugController;
+use App\Controllers\AuthController;
 // use App\Controllers\FinController;
 use App\Middleware\AuthMiddleware;
 use App\Middleware\LogMiddleware;
@@ -34,6 +35,15 @@ function registerRoutes(Router $router): void
             }
         }
     ]);
+
+    // Authentication routes (no auth required)
+    $router->group('', [], function($router) {
+        $router->get('/login', [AuthController::class, 'showLogin'])
+        ->post('/login', [AuthController::class, 'login'])
+        ->get('/register', [AuthController::class, 'showRegister'])
+        ->post('/register', [AuthController::class, 'register'])
+        ->get('/logout', [AuthController::class, 'logout']);
+    });
 
     // Public routes group (no authentication required)
     $router->group('', [], function($router) {

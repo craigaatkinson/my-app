@@ -12,8 +12,7 @@ return [
     'mysql' => [
         'app_env' => 'local',
         'app_debug' => true,
-        'host' => 'localhost',
-        // 'host' => '127.0.0.1',
+        'host' => 'host.docker.internal',
         'port' => 3306,
         'database' => 'Atransport',
         'username' => 'root',
@@ -24,9 +23,8 @@ return [
     'db' => [
         'app_env' => 'local',
         'app_debug' => true,
-        'host' => 'localhost',
-        // 'host' => '127.0.0.1',
-        'port' => 3307,
+        'host' => 'host.docker.internal',
+        'port' => 3306,
         'database' => 'Atransport',
         'username' => 'root',
         'password' => 'newell29',
